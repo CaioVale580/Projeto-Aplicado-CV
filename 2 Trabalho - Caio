@@ -1,3 +1,56 @@
+Aula  01
+
+
+Algorítimo
+Um algoritmo é um conjunto finito de instruções ou regras bem definidas que são seguidas para realizar uma tarefa específica ou resolver um problema. Em termos simples, é um procedimento ou fórmula que descreve como realizar uma operação de forma sistemática.
+Cada passo do algoritmo deve ser definido de maneira clara e sem ambiguidades, para que possa ser seguido sem interpretações errôneas.Um algoritmo deve ter um número finito de passos. Deve terminar após um número finito de operações, com um resultado ou solução.
+Um algoritmo pode ter zero ou mais entradas (dados fornecidos ao início) e deve produzir uma ou mais saídas (resultados ou soluções).Os passos do algoritmo devem ser suficientemente básicos para que possam ser executados em um tempo finito com os recursos disponíveis.
+Algoritmos fornecem um método estruturado para resolver problemas, desde simples tarefas diárias até problemas complexos de computação.
+A escolha do algoritmo pode impactar a eficiência de um programa, incluindo tempo de execução e uso de memória. Algoritmos eficientes são cruciais para aplicações que lidam com grandes volumes de dados.
+Algoritmos são fundamentais para a automação de processos em software, desde operações básicas até sistemas complexos de inteligência artificial.
+Algoritmos são a base para a programação e desenvolvimento de software, permitindo a criação de soluções digitais para uma ampla gama de aplicações.
+https://rockcontent.com/br/blog/algoritmo/
+
+
+Inteligencia Artificial
+Inteligência Artificial (IA) refere-se à capacidade de sistemas computacionais realizarem tarefas que normalmente requerem inteligência humana.
+Isso inclui funções como raciocínio, aprendizado, percepção, e tomada de decisão.
+A IA pode ser encontrada em diversos aspectos da vida cotidiana e em várias áreas tecnológicas, e pode ser dividida em diferentes categorias e subcampos.
+A Inteligência Artificial é um campo da ciência da computação que se dedica ao desenvolvimento de sistemas e tecnologias capazes de executar tarefas que exigem inteligência humana. 
+O objetivo principal da Inteligencia artificial é criar máquinas que possam simular processos cognitivos humanos, como aprendizado, raciocínio, e percepção, e aplicar essas habilidades para resolver problemas complexos de maneira autônoma.
+https://www.alura.com.br/artigos/inteligencia-artificial-ia?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=165988188187&hsa_ad=700840818675&hsa_src=g&hsa_tgt=dsa-2276348409503&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMI1qfN39H0hwMVqAGtBh2ycTK1EAAYASAAEgJsy_D_BwE
+
+
+Sistema operacional
+Sistema Operacional (SO) é um software fundamental que gerencia o hardware do computador e fornece serviços para outros softwares.
+Em essência, o sistema operacional atua como uma ponte entre o hardware e os aplicativos que os usuários desejam executar. 
+Ele facilita a comunicação e a execução de tarefas no computador, tornando a interação com o sistema mais eficiente e intuitiva.
+Um sistema operacional é um conjunto de programas que gerencia o hardware do computador e oferece uma plataforma sobre a qual outros aplicativos podem ser executados. 
+https://tecnoblog.net/responde/o-que-e-um-sistema-operacional/
+
+Banco de dados
+Banco de Dados é um sistema organizado para armazenar, gerenciar e recuperar informações de maneira eficiente e estruturada.
+É um conjunto de dados inter-relacionados que são armazenados e acessados de forma eletrônica. 
+Bancos de dados são fundamentais para aplicações em diversas áreas, desde sistemas de gerenciamento empresarial até redes sociais e serviços de e-commerce.
+Um banco de dados é um sistema que coleta e organiza dados em uma estrutura que facilita o armazenamento, a busca, a modificação e a análise dessas informações. 
+A principal função de um banco de dados é fornecer um meio eficiente e seguro para gerenciar grandes volumes de dados e garantir que essas informações possam ser recuperadas e manipuladas conforme necessário.
+https://www.oracle.com/br/database/what-is-database/#:~:text=Um%20banco%20de%20dados%20%C3%A9,banco%20de%20dados%20(DBMS).
+
+Rede Neural Artificial
+Rede Neural Artificial (RNA) é um modelo computacional inspirado no funcionamento do cérebro humano, projetado para reconhecer padrões, aprender com dados e tomar decisões.
+Redes neurais artificiais são uma parte fundamental da Inteligência Artificial e do Aprendizado de Máquina, e são usadas para uma variedade de tarefas, como reconhecimento de imagens, processamento de linguagem natural e previsão de séries temporais.
+Uma rede neural artificial é um sistema computacional que simula a forma como os neurônios no cérebro humano processam informações. 
+Ela é composta por camadas de "neurônios" artificiais interconectados que trabalham em conjunto para realizar tarefas complexas. 
+O objetivo das RNAs é aprender a partir de dados e realizar previsões ou classificações com base nesse aprendizado.
+https://ebaconline.com.br/blog/rede-neural-seo
+
+
+
+Aula 02
+
+
+
+
 1. Relação entre a LGPD e os Data Centers no Brasil
 
 Lei Geral de Proteção de Dados (LGPD): Lei nº 13.709/2018.
