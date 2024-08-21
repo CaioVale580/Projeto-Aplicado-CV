@@ -92,3 +92,81 @@ Acessibilidade - Formatos abertos garantem que dados públicos possam ser acessa
 Interoperabilidade - Dados em formatos abertos são mais facilmente integrados com outros sistemas e ferramentas, aumentando a interoperabilidade.
 Custo - Formatos proprietários podem exigir licenças de software caras, enquanto formatos abertos são frequentemente gratuitos, reduzindo o custo de acesso e uso dos dados.
 Preservação a Longo Prazo - Dados em formatos abertos tendem a ser mais facilmente preservados a longo prazo, uma vez que os padrões abertos são mais propensos a serem suportados no futuro do que formatos proprietários.
+
+
+
+
+
+Aula 03
+
+
+1.C
+
+Características:
+Linguagem de Baixo Nível: Fornece controle direto sobre o hardware e gerenciamento de memória.
+Compilada: O código é convertido em código de máquina pelo compilador, resultando em alta performance e eficiência.
+Sintaxe: Mais detalhada e exigente, com necessidade de gerenciamento explícito de memória.
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    printf("Hello world!\n");
+    return 0;
+}
+
+
+2 Java
+
+Características:
+Linguagem Orientada a Objetos: Focada em orientação a objetos, encapsulamento e reutilização de código.
+Compilada para Bytecode: O código é compilado em bytecode, que é executado na Java Virtual Machine (JVM). Isso permite portabilidade entre diferentes sistemas.
+Sintaxe: Verbosa, mas estruturada, com foco em robustez e manutenção.
+
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+    }
+
+3 Bash
+
+Características:
+Linguagem de Script de Shell: Usada para automação de tarefas e manipulação de sistemas Unix/Linux.
+Interpretada: O código é executado diretamente pelo interpretador de shell, sem necessidade de compilação.
+Sintaxe: Simples, mas limitada em comparação com linguagens de programação completas. Foca em comandos e scripts para gerenciar o sistema.
+
+
+
+
+#!/bin/bash
+
+echo "Hello world!"
+
+
+
+
+
+Comparação:
+
+. Sintaxe e Facilidade de Uso:
+C: Sintaxe mais complexa, com necessidade de gerenciamento explícito de memória. Requer mais detalhes e cuidado.
+Java: Sintaxe estruturada e orientada a objetos. Mais verboso, mas oferece uma boa organização e robustez.
+Bash: Sintaxe simples e voltada para a execução de comandos do sistema. Ideal para scripts e tarefas administrativas, mas não é adequado para desenvolvimento de software complexo.
+2. Execução e Performance:
+C: Compilado diretamente para código de máquina, o que proporciona alta performance e controle sobre o hardware.
+Java: Compilado para bytecode, que é interpretado pela JVM. Isso permite portabilidade, mas pode ter uma leve perda de performance em comparação com o código nativo.
+Bash: Interpretado, com desempenho dependente do interpretador de shell e das operações do sistema. Adequado para scripts rápidos e tarefas de automação, mas não para aplicações de alta performance.
+3. Casos de Uso:
+C: Ideal para desenvolvimento de sistemas de baixo nível, como sistemas operacionais, drivers e aplicativos que requerem alta performance.
+Java: Adequado para aplicações corporativas, desenvolvimento web e aplicativos móveis. Oferece portabilidade entre diferentes plataformas.
+Bash: Usado para scripts e automação em sistemas Unix/Linux. Ideal para tarefas de administração e manutenção do sistema.
