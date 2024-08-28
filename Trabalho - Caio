@@ -178,6 +178,7 @@ Bash: Usado para scripts e automação em sistemas Unix/Linux. Ideal para tarefa
 Aula 04
 
 
+1 - 
 # Exemplo de estrutura de decisão e repetição em Python
 
 # Estrutura de decisão
@@ -207,6 +208,48 @@ Idade: 25 - Você é adulto.
 Idade: 60 - Você é adulto.
 Idade: 70 - Você é idoso.
 Idade: 16 - Você é menor de idade.
+
+Comprovante de execução:
+https://github.com/CaioVale580/Projeto-Aplicado-CV/blob/main/Screenshot_28-8-2024_85540_www.programiz.com.jpeg
+
+2 - 
+import random
+
+# Função principal do jogo de adivinhação
+def jogo_adivinhacao():
+    # Gera um número aleatório entre 1 e 100
+    numero_secreto = random.randint(1, 100)
+    tentativas = 0
+    acertou = False
+
+    print("Bem-vindo ao jogo de adivinhação!")
+    print("Tente adivinhar o número entre 1 e 100.")
+
+    # Estrutura de repetição: loop até o usuário adivinhar o número
+    while not acertou:
+        # Solicita ao usuário um palpite
+        palpite = int(input("Digite seu palpite: "))
+        tentativas += 1
+        
+        # Estrutura de decisão: verifica se o palpite está correto
+        if palpite < numero_secreto:
+            print("O número secreto é maior.")
+        elif palpite > numero_secreto:
+            print("O número secreto é menor.")
+        else:
+            acertou = True
+            print(f"Parabéns! Você acertou o número em {tentativas} tentativas.")
+
+# Executa o jogo
+jogo_adivinhacao()
+
+execução:
+Bem-vindo ao jogo de adivinhação!
+Tente adivinhar o número entre 1 e 100.
+Digite seu palpite: 
+
+Comprovante de execução:
+
 
 
 
