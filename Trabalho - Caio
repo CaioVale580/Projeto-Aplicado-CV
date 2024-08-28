@@ -170,3 +170,45 @@ Bash: Interpretado, com desempenho dependente do interpretador de shell e das op
 C: Ideal para desenvolvimento de sistemas de baixo nível, como sistemas operacionais, drivers e aplicativos que requerem alta performance.
 Java: Adequado para aplicações corporativas, desenvolvimento web e aplicativos móveis. Oferece portabilidade entre diferentes plataformas.
 Bash: Usado para scripts e automação em sistemas Unix/Linux. Ideal para tarefas de administração e manutenção do sistema.
+
+
+
+
+
+Aula 04
+
+
+# Exemplo de estrutura de decisão e repetição em Python
+
+# Estrutura de decisão
+def verificar_idade(idade):
+    if idade < 18:
+        return "Você é menor de idade."
+    elif idade < 65:
+        return "Você é adulto."
+    else:
+        return "Você é idoso."
+
+# Estrutura de repetição
+def listar_idades(idades):
+    for idade in idades:
+        resultado = verificar_idade(idade)
+        print(f"Idade: {idade} - {resultado}")
+
+# Lista de idades para testar a estrutura de repetição
+idades = [12, 25, 60, 70, 16]
+
+# Chama a função que lista as idades e suas classificações
+listar_idades(idades)
+
+Execução:
+Idade: 12 - Você é menor de idade.
+Idade: 25 - Você é adulto.
+Idade: 60 - Você é adulto.
+Idade: 70 - Você é idoso.
+Idade: 16 - Você é menor de idade.
+
+
+
+
+
