@@ -254,5 +254,58 @@ https://github.com/CaioVale580/Projeto-Aplicado-CV/blob/main/Screenshot_28-8-202
 
 
 
+Aula 05
+
+1 - Algorítmo Bubble sort usando Python:
+
+
+def bubble_sort(arr):
+
+    # Outer loop to iterate through the list n times
+    for n in range(len(arr) - 1, 0, -1):
+
+        # Inner loop to compare adjacent elements
+        for i in range(n):
+            if arr[i] > arr[i + 1]:
+
+                # Swap elements if they are in the wrong order
+                swapped = True
+                arr[i], arr[i + 1] = arr[i + 1], arr[i]
+
+
+# Sample list to be sorted
+arr = [39, 12, 18, 85, 72, 10, 2, 18]
+print("Unsorted list is:")
+print(arr)
+
+bubble_sort(arr)
+
+print("Sorted list is:")
+print(arr)
+
+
+Unsorted list is:
+[39, 12, 18, 85, 72, 10, 2, 18]
+Sorted list is:
+[2, 10, 12, 18, 18, 39, 72, 85]
+
+
+
+
+
+2 - Algorítmo que imprima apenas as vogais :
+
+def Check_Vow(text, vowels): 
+    final = [each for each in text if each in vowels] 
+    print(len(final)) 
+    print(final) 
+      
+Text = "Bom dia"
+vowels = "AaEeIiOoUu"
+Check_Vow(text, vowels); 
+
+Result: ['o','i','a']
+
+
 
 
